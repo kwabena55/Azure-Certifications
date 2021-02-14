@@ -1,11 +1,14 @@
 {
-  "Name": "Company Role",
+  "Name": "Datalakerole",
   "Id": null,
   "IsCustom": true,
   "Description": "Allows for read access to Azure Virtual Machines",
   "Actions": [
     "Microsoft.Compute/virtualMachines/start/action",
-    "Microsoft.Storage/*/read"
+    "Microsoft.Storage/*/read",
+    "Microsoft.DataLakeAnalytics/accounts/dataLakeStoreGen2Accounts/read",
+    "Microsoft.DataLakeAnalytics/accounts/dataLakeStoreGen2Accounts/write",
+    "Microsoft.DataLakeAnalytics/accounts/dataLakeStoreGen2Accounts/delete"]
   ],
   "NotActions": [],
   "AssignableScopes": [
