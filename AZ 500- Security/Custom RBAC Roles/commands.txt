@@ -1,0 +1,3 @@
+New-AzRoleDefinition -InputFile "samplerole.json"
+
+New-AzRoleAssignment -ResourceGroupName azuredemo -SignInName user10@techsup1000gmail.onmicrosoft.com -RoleDefinitionName "JIT Access"
