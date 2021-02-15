@@ -1,3 +1,3 @@
-New-AzRoleDefinition -InputFile "samplerole.json"
+New-AzRoleDefinition -InputFile "Datalakerole.json"
 
 New-AzRoleAssignment -ResourceGroupName testvm_group -SignInName louisa@peniel55outlook.onmicrosoft.com -RoleDefinitionName "Company Role"
